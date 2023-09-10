@@ -1,12 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Flex/BEM/scss</title>
-</head>
-<body>
-  <p>Hello world!</p>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim autem perspiciatis incidunt distinctio vitae deserunt adipisci saepe, animi numquam in atque odio eius corporis maiores, quam ipsam! Laborum, tempora molestias?</p>
-</body>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/normalise.css" />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <title>Flex/BEM/scss</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <main class="page">
+        <section class="hi">
+          <div class="hi__container">
+            <div class="hi__block">
+              <h1 class="hi__title">Привет, друг!</h1>
+              <ul class="hi__list">
+                <li class="hi__item">У тебя все получится!</li>
+                <li class="hi__item">Никогда не сдавайся!</li>
+                <li class="hi__item">Сегодня ты уже знаешь больше чем вчера!</li>
+                <li class="hi__item">Спасибо тебе за поддержку!</li>
+              </ul>
+            </div>
+            <div class="hi__image">
+                <img src="./image/shape_9_345 (1) (1).jpg" alt="Фрілансер по життю" width: 469px;>
+            </div>
+          </div>
+        </section>
+        <section class="about">
+          <div class="about__container">
+            <div class="about__image">
+              <img src="./image/video_14 (1).jpg" alt="Что такое FlexBox?">
+            </div>
+            <div class="about__body">
+              <h2 class="about__title title">Что такое FlexBox?</h2>
+              <p class="about__text">
+                Flexbox - это целый модуль, содержащий в себе набор свойств и их значений как для родителя flex-контейнера так и для его дочерних элементов flex-элементов. 
+              </p>
+              <p class="about__text">
+                Основным преимуществом гибкой FLEX разметки является возможность изменять ширину/высоту пространство вокруг и порядок flex-элементов, для того чтобы наилучшим образом заполнить доступное пространство flex-контейнера
+              </p>
+            </div>
+          </div>
+        </section>
+        <section class="columns"></section>
+        <section class="vertical"></section>
+      </main>
+      <footer class="footer"></footer>
+    </div>
+  </body>
 </html>
